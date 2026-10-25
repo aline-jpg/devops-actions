@@ -22,4 +22,10 @@ Quando uma tag de versão (por exemplo `v1.0.0`) é enviada ao repositório, a A
 ## Changelog
 
 <!-- CHANGELOG:START -->
+- `6f94fdc` Add initial HTML structure for DevOps Actions page — Mihari barbosa da silva (2026-10-25)
+- `41f76b0` Enhance README with project information and actions — Mihari barbosa da silva (2026-10-25)
+- `bd315fe` Add GitHub Actions workflow for automatic changelog — Mihari barbosa da silva (2026-10-25)
+- `7e95a58` Delete .github/workflows/devops.yml — Mihari barbosa da silva (2026-10-25)
+- `0c7e390` Add DevOps workflow for commits and release package — Mihari barbosa da silva (2026-10-22)
+- `accd22c` Initial commit — Mihari barbosa da silva (2026-10-22)
 <!-- CHANGELOG:END -->
