@@ -22,6 +22,7 @@ Quando uma tag de versão (por exemplo `v1.0.0`) é enviada ao repositório, a A
 ## Changelog
 
 <!-- CHANGELOG:START -->
+- `2f4f506` Update title in index.html for Trabalho 1 — Mihari barbosa da silva (2026-10-25)
 - `c33df95` Add initial CSS styles for layout and typography — Mihari barbosa da silva (2026-10-25)
 - `6f94fdc` Add initial HTML structure for DevOps Actions page — Mihari barbosa da silva (2026-10-25)
 - `41f76b0` Enhance README with project information and actions — Mihari barbosa da silva (2026-10-25)
