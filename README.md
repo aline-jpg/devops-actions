@@ -1,2 +1,25 @@
-# devops-actions
-Testando usar o actions 
+# Changelog e Release com GitHub Actions
+
+Trabalho 1 de DevOps Avançado — UniALFA
+
+## Integrantes
+
+- Mihari Barbosa da Silva (RA 260266
+- Aline Eduarda Morais de Rezende (RA 250279)
+
+## Sobre o projeto
+
+Repositório que demonstra o uso de GitHub Actions para documentar alterações e publicar versões do projeto. Contém uma página HTML simples e duas automações independentes.
+
+## Action de changelog (`changelog.yml`)
+
+A cada push na branch `main`, a Action lê o histórico do Git (`git log`) e reescreve a seção de changelog deste README, listando cada commit com hash, mensagem, autor e data. A seção fica entre os marcadores `CHANGELOG:START` e `CHANGELOG:END`. Depois, a própria Action faz um commit com o README atualizado.
+
+## Action de release (`release.yml`)
+
+Quando uma tag de versão (por exemplo `v1.0.0`) é enviada ao repositório, a Action gera um arquivo `pacote.zip` com o conteúdo do projeto e o publica na seção Releases do GitHub, com notas de versão geradas automaticamente. Para publicar uma versão: `git tag v1.0.0 && git push origin v1.0.0`, ou criar a tag pelo site do GitHub.
+
+## Changelog
+
+<!-- CHANGELOG:START -->
+<!-- CHANGELOG:END -->
